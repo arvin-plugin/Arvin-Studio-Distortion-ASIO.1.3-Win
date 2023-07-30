@@ -1,12 +1,13 @@
 object DistortionDataModule: TDistortionDataModule
   OldCreateOrder = False
-  Flags = [effFlagsHasEditor]
+  OnCreate = VSTModuleCreate
+  Flags = [effFlagsHasEditor, effFlagsCanMono, effFlagsCanReplacing]
   Version = '0.0'
   EffectName = 'Distortion Pedal'
   ProductName = 'Arvin Plugin'
   VendorName = 'Arvin Studio'
   PlugCategory = vpcEffect
-  CanDos = []
+  CanDos = [vcdPlugAsChannelInsert, vcdPlugAsSend, vcd2in2out]
   SampleRate = 44100.000000000000000000
   CurrentProgram = 0
   CurrentProgramName = 'Init'
@@ -35,6 +36,8 @@ object DistortionDataModule: TDistortionDataModule
       VSTModule = Owner
     end>
   OnEditOpen = VSTModuleEditOpen
+  OnProcess = VSTModuleProcess
+  OnProcessReplacing = VSTModuleProcess
   Left = 192
   Top = 124
   Height = 150

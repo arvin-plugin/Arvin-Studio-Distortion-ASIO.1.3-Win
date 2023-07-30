@@ -7853,4 +7853,29 @@ object DistortionUI: TDistortionUI
       4E43544E43544E43544E43544E43544E43544E43544E43544E43544E43544E43
       544E43544E43544E4300}
   end
+  object KnobLevel: TGuiDial
+    Left = 43
+    Top = 72
+    Width = 41
+    Height = 41
+    Color = clOlive
+    LineWidth = 2
+    LineColor = clInactiveCaptionText
+    CircleColor = clWindow
+    Max = 100.000000000000000000
+    StitchKind = skHorizontal
+    OnChange = KnobLevelChange
+  end
+  object KnobGain: TGuiDial
+    Left = 157
+    Top = 72
+    Width = 41
+    Height = 41
+    Color = clOlive
+    LineWidth = 2
+    LineColor = clInactiveCaptionText
+    CircleColor = clWindow
+    Max = 100.000000000000000000
+    StitchKind = skHorizontal
+  end
 end

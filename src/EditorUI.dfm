@@ -7864,6 +7864,7 @@ object DistortionUI: TDistortionUI
     CircleColor = clWindow
     Max = 100.000000000000000000
     StitchKind = skHorizontal
+    OnChange = KnobLevelChange
   end
   object KnobGain: TGuiDial
     Left = 157
