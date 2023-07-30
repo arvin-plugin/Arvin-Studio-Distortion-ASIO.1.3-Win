@@ -3,7 +3,7 @@ Berikut adalah versi README.md dengan link repositori yang baru:
 
 **Efek Distorsi untuk Plugin VST**
 
-![Distortion Plugin](capture/arvin_distortion.png)
+![Distortion Plugin](capture/arvin_distortion.PNG)
 
 Selamat datang di repositori efek distorsi untuk plugin VST! Efek distorsi ini mengubah sinyal audio dengan mengendalikan jumlah distorsi dan gain pada suara yang dihasilkan. Dengan menggunakan proyek ini, Anda dapat memahami dasar-dasar pengembangan plugin VST dan implementasi efek audio sederhana.
 
