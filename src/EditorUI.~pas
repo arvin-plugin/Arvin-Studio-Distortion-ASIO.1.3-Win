@@ -1,0 +1,18 @@
+unit EditorUI;
+
+interface
+
+uses 
+  Windows, Messages, SysUtils, Classes, Forms, DAVDCommon, DVSTModule,
+  Graphics, Controls, ExtCtrls;
+
+type
+  TDistortionUI = class(TForm)
+    Skin: TImage;
+  end;
+
+implementation
+
+{$R *.DFM}
+
+end.
