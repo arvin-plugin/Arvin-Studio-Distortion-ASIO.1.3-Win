@@ -35,6 +35,7 @@ object DistortionDataModule: TDistortionDataModule
       CurveFactor = 1.000000000000000000
       SmoothingFactor = 1.000000000000000000
       VSTModule = Owner
+      OnParameterChange = DistortionDataModuleParameterProperties1ParameterChange
     end>
   OnEditOpen = VSTModuleEditOpen
   OnProcess = VSTModuleProcess

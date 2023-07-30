@@ -7858,6 +7858,7 @@ object DistortionUI: TDistortionUI
     Top = 72
     Width = 41
     Height = 41
+    Hint = 'Knob Level'
     Color = clOlive
     LineWidth = 2
     LineColor = clInactiveCaptionText
@@ -7871,11 +7872,13 @@ object DistortionUI: TDistortionUI
     Top = 72
     Width = 41
     Height = 41
+    Hint = 'Knob Gain'
     Color = clOlive
     LineWidth = 2
     LineColor = clInactiveCaptionText
     CircleColor = clWindow
     Max = 100.000000000000000000
     StitchKind = skHorizontal
+    OnChange = KnobGainChange
   end
 end
